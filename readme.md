@@ -23,12 +23,11 @@ train.csv: (5983 x 2)
 test.csv: (3219x1)
 sample_submission
 
-Image,Class
-image0001.jpg,Food
-image0002.jpg,Attire
-image0003.jpg,Food
-image0004.jpg,misc
-image0005.jpg,Attire
-Evaluation metric
+#    Image,       Class
+	image0001.jpg,Food
+	image0002.jpg,Attire
+	image0003.jpg,Food
+	image0004.jpg,misc
+	image0005.jpg,Attire
 
-## Note: To avoid any discrepancies in the scoring, ensure all the index column ('Image_File') values in the submitted file match the values in the provided test.csv file.
+### Note: To avoid any discrepancies in the scoring, ensure all the index column ('Image_File') values in the submitted file match the values in the provided test.csv file.
